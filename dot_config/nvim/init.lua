@@ -661,7 +661,9 @@ cmp.setup {
     { name = 'path' },
   },
 }
+-- Misc added
 vim.keymap.set('n', '<leader>h', '<Cmd>Neotree toggle<CR>')
 vim.keymap.set('n', '<leader>l', '<Cmd>Neotree focus<CR>')
+vim.keymap.set("i", "jj", "<ESC>", { noremap = true, silent = true })
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
